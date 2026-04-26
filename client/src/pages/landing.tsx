@@ -285,6 +285,95 @@ const handlePayment = () => {
         </div>
       </section>
 
+      {/* Video Section */}
+      <section id="videos" className="py-20 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto">
+          <motion.div 
+            className="text-center mb-16"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+          >
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black mb-6 px-4 sm:px-0">
+              Watch Our System in <span className="text-gradient">Action</span>
+            </h2>
+            <p className="text-lg sm:text-xl text-muted-foreground max-w-4xl mx-auto px-4 sm:px-0">
+              See how our automation tools can transform your social media presence and drive real results.
+            </p>
+          </motion.div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 px-4 sm:px-0">
+            <motion.div
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.1 }}
+              viewport={{ once: true }}
+              whileHover={{ y: -5 }}
+            >
+              <Card className="glass-card p-4 h-full hover-glow">
+                <CardContent className="p-0">
+                   <iframe 
+                    className="w-full rounded-lg aspect-[9/16]" 
+                    src="https://www.youtube.com/embed/8-M7p4T9mlI" 
+                    title="YouTube video player" 
+                    frameBorder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowFullScreen>
+                  </iframe>
+                  <h3 className="text-lg sm:text-xl font-bold mt-4 mb-2">AI-Powered Content Creation</h3>
+                  <p className="text-sm sm:text-base text-muted-foreground">Watch how our AI generates engaging content in minutes.</p>
+                </CardContent>
+              </Card>
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.2 }}
+              viewport={{ once: true }}
+              whileHover={{ y: -5 }}
+            >
+              <Card className="glass-card p-4 h-full hover-glow">
+                <CardContent className="p-0">
+                  <iframe 
+                    className="w-full rounded-lg aspect-[9/16]" 
+                    src="https://www.youtube.com/embed/y9LuBqUHl88" 
+                    title="YouTube video player" 
+                    frameBorder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowFullScreen>
+                  </iframe>
+                  <h3 className="text-lg sm:text-xl font-bold mt-4 mb-2">Automated Social Media Posting</h3>
+                  <p className="text-sm sm:text-base text-muted-foreground">See our system schedule and post content across multiple platforms.</p>
+                </CardContent>
+              </Card>
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.3 }}
+              viewport={{ once: true }}
+              whileHover={{ y: -5 }}
+            >
+              <Card className="glass-card p-4 h-full hover-glow">
+                <CardContent className="p-0">
+                  <iframe 
+                    className="w-full rounded-lg aspect-[9/16]" 
+                    src="https://www.youtube.com/embed/pUS8cYbboiE" 
+                    title="YouTube video player" 
+                    frameBorder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowFullScreen>
+                  </iframe>
+                  <h3 className="text-lg sm:text-xl font-bold mt-4 mb-2">Real-Time Analytics Dashboard</h3>
+                  <p className="text-sm sm:text-base text-muted-foreground">Discover how to track your growth and optimize your strategy.</p>
+                </CardContent>
+              </Card>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
       {/* Features Grid */}
       <section id="features" className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
