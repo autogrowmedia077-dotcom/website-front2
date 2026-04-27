@@ -25,7 +25,7 @@ export default function CountdownTimer() {
   return (
     <Card className="glass-card p-4 sm:p-8 border border-red-500/30" data-testid="countdown-timer">
       <CardContent className="p-0 text-center">
-        <h3 className="text-xl sm:text-2xl font-bold mb-2 text-red-400">⏰ ₹399 Price Expires in:</h3>
+        <h3 className="text-xl sm:text-2xl font-bold mb-2 text-red-400"> ₹999 Price Expires in:</h3>
         <p className="text-xs sm:text-sm text-muted-foreground mb-4">After this timer, price increases to ₹2,999</p>
         <div className="flex justify-center space-x-2 sm:space-x-4 mb-4 sm:mb-6">
           <div className="countdown-digit p-2 sm:p-4 rounded-lg text-center" data-testid="countdown-hours">

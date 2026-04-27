@@ -5,44 +5,44 @@ import { useState, useEffect } from "react";
 
 const testimonials = [
   {
-    name: "Rajesh Kumar",
-    role: "Ex-Software Engineer, Now Full-Time Creator",
-    location: "Mumbai",
-    initials: "RK",
-    gradient: "from-purple-400 to-blue-400",
-    revenue: "₹2.3L/month",
-    timeframe: "4 months",
-    content: "I was skeptical at first, but this system helped me quit my ₹8L/year job. Now I'm making ₹2.3 lakh per month with automated content across 5 platforms. The ROI? Over 4000% in 4 months."
-  },
-  {
-    name: "Priya Sharma",
-    role: "Former Marketing Executive", 
-    location: "Bangalore",
-    initials: "PS",
-    gradient: "from-green-400 to-blue-400",
-    revenue: "₹1.8L/month",
-    timeframe: "3 months",
-    content: "I went from posting manually 2-3 times a week to having content posted 4x daily across Instagram, YouTube, and LinkedIn. Revenue jumped from ₹15K to ₹1.8L per month. The automation handles everything while I focus on high-value activities."
-  },
-  {
-    name: "Ankit Mehta",
-    role: "College Student turned Entrepreneur",
+    name: "Arjun Singh",
+    role: "Ex-Corporate Analyst, Now Digital Creator",
     location: "Delhi",
-    initials: "AM", 
-    gradient: "from-pink-400 to-purple-400",
-    revenue: "₹95K/month",
-    timeframe: "2 months",
-    content: "As a college student, I had no business experience. This system grew my YouTube from 800 to 47K subscribers and Instagram to 25K followers. Now I'm making ₹95K/month - more than most graduates earn in their first job."
+    initials: "AS",
+    gradient: "from-orange-400 to-amber-500",
+    revenue: "₹2.1L/month",
+    timeframe: "5 months",
+    content: "I was stuck in a 9-5 earning ₹7L/year. This system completely flipped things for me. Now I run automated content across multiple platforms and generate over ₹2.1 lakh every month. Best decision I've made."
   },
   {
-    name: "Meera Patel",
-    role: "Stay-at-Home Mom",
-    location: "Ahmedabad",
-    initials: "MP", 
+    name: "Neha Verma",
+    role: "Former HR Manager",
+    location: "Mumbai",
+    initials: "NV",
+    gradient: "from-orange-500 to-yellow-400",
+    revenue: "₹1.6L/month",
+    timeframe: "3 months",
+    content: "I barely had time to post content earlier. Now everything runs on autopilot — 3-4 posts daily across platforms. My income went from ₹20K to ₹1.6L/month without increasing workload."
+  },
+  {
+    name: "Rohan Gupta",
+    role: "Student to Content Entrepreneur",
+    location: "Pune",
+    initials: "RG",
     gradient: "from-orange-400 to-red-400",
-    revenue: "₹1.2L/month",
-    timeframe: "5 months",
-    content: "I started this while managing two kids at home. The automation gave me my time back while growing my audience to 35K+ across platforms. I'm now earning ₹1.2L monthly selling digital products - all while being present for my family."
+    revenue: "₹1.1L/month",
+    timeframe: "2.5 months",
+    content: "I started with zero audience. Within weeks, my Instagram and YouTube started growing fast. Now I'm earning over ₹1 lakh/month — all while still in college."
+  },
+  {
+    name: "Kavita Shah",
+    role: "Homemaker turned Online Seller",
+    location: "Ahmedabad",
+    initials: "KS",
+    gradient: "from-amber-400 to-orange-600",
+    revenue: "₹1.4L/month",
+    timeframe: "4 months",
+    content: "Managing home and work felt impossible earlier. This system made it simple. My audience grew rapidly and now I earn ₹1.4L/month through digital products — with full flexibility."
   }
 ];
 
